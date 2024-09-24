@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0px 0px 30px rgba(173, 2, 2, 0.788);
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.lanche {
+    text-align: center;
+    background-color: aquamarine;
+    border: 10px inset black;
+    margin: 10px;
+    width: 25%;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(173, 2, 2, 0.788);
+}
